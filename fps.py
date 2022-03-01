@@ -3,7 +3,7 @@ import tkinter, random
 
 commands = ["Press: w", "Press: a", "Press: s", "Press: d", "Press: space", "Click", "Double click", "Triple click"]
 question = "Click"
-timer = 2
+timer = 20
 points = -2
 gaming = True
 
