@@ -18,11 +18,11 @@ def changeWindow(color=None):
             window.configure(bg=colors[2])
 
 
-def yellowWindow(event):
+def yellowWindow(event=None):
     window.configure(bg="yellow")
 
 
-def labelClick(event):
+def labelClick(event=None):
     global num
     if lastButton == "Up":
         num *= 3
@@ -31,7 +31,7 @@ def labelClick(event):
     stringvar.set(str(int(num)))
 
 
-def goUp(event):
+def goUp(event=None):
     global lastButton
     global num
     lastButton = "Up"
@@ -40,7 +40,7 @@ def goUp(event):
     changeWindow()
 
 
-def goDown(event):
+def goDown(event=None):
     global num
     global lastButton
     lastButton = "Down"
